@@ -1,0 +1,54 @@
+name: criaturapp
+description: "A new Flutter project."
+publish_to: 'none' # Elimina esta línea si deseas publicar en pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  video_player: ^2.8.1
+  chewie: ^1.0.1
+  audioplayers: ^0.20.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Ajusta el formato de la sección 'assets' para que sea coherente
+  assets:
+    - assets/proyecto_entorno/
+  # Esto indica que todos los archivos dentro de la carpeta 'assets' están incluidos.
+
+  # Un activo de imagen puede hacer referencia a uno o más "variantes" específicas de resolución, consulta
+  # https://flutter.dev/assets-and-images/#resolution-aware para más detalles.
+  #
+  # Para obtener detalles sobre cómo agregar activos de dependencias del paquete, consulta
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # Para agregar fuentes personalizadas a tu aplicación, agrega una sección de fuentes aquí,
+  # en esta sección "flutter". Cada entrada en esta lista debe tener una
+  # clave "family" con el nombre de la familia de la fuente y una clave "fonts" con una
+  # lista que dé el activo y otros descriptores para la fuente. Por ejemplo:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # Para obtener detalles sobre las fuentes de dependencias del paquete, consulta
+  # https://flutter.dev/custom-fonts/#from-packages
